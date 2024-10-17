@@ -2,19 +2,21 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background-color: black;
     color: white;
-    height: 90dvh
+    height: 90dvh;
+    font-size-adjust:
+
 }
 
 #nav
 {
     float: left;
-    width:fit-content;
+    max-width:15dvw;
+    min-width:15dvw;
     border-width: 0 6px 0 0px;
-    border-color: white;
+    border-color: grey;
     border-style: solid;
-    margin: 10px;
-    padding: 10px;
     height:90dvh;
+    margin-right:15px;
 }
 #navlist {
     padding: 5px;
@@ -22,8 +24,10 @@ body {
 
 #main
 {
-    float:right;
-    width:60dvw;
+
+    width:fit-content;
+    padding-left: 30px;
+    margin-left:30px;
 }
 
 #greg {
