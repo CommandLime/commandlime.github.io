@@ -4,10 +4,11 @@ body {
     color:white;
 }
 
-#greg {
+h1 #greg {
     font-size: larger;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 a {
     color:greenyellow;
 }
