@@ -18,3 +18,9 @@ a {
 a:visited {
     color:yellow;
 }
+
+footer {
+    display:fixed;
+    text-align:center;
+    padding:10px;
+}
