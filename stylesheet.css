@@ -2,6 +2,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background-color: black;
     color:white;
+    height:90dvh
 }
 
 #greg {
@@ -23,4 +24,5 @@ footer {
     display:fixed;
     text-align:center;
     padding:10px;
+    top: 90%;
 }
