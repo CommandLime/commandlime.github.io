@@ -4,13 +4,15 @@ body {
     color:white;
 }
 
-h1 #greg {
+#greg {
     font-size: larger;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
 }
 
 a {
-    color:greenyellow;
+    color:limegreen;
+    font-weight: bolder;
 }
 
 a:visited {
