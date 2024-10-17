@@ -1,3 +1,10 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color:white;
+};
+
+#greg {
+    font-size: larger;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
