@@ -9,15 +9,21 @@ body {
 {
     float: left;
     width:fit-content;
-    border-width: 10px;
+    border-width: 0 6px 0 0px;
     border-color: white;
     border-style: solid;
+    margin: 10px;
+    padding: 10px;
+    height:90dvh;
+}
+#navlist {
+    padding: 5px;
 }
 
 #main
 {
     float:right;
-    width:fit-content;
+    width:60dvw;
 }
 
 #greg {
