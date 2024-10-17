@@ -1,28 +1,44 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: black;
-    color:white;
-    height:90dvh
+    color: white;
+    height: 90dvh
+}
+
+#nav
+{
+    float: left;
+    width:fit-content;
+    border-width: 10px;
+    border-color: white;
+    border-style: solid;
+}
+
+#main
+{
+    float:right;
+    width:fit-content;
 }
 
 #greg {
     font-size: larger;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
 }
 
 a {
-    color:limegreen;
+    color: limegreen;
     font-weight: bolder;
 }
 
 a:visited {
-    color:yellow;
+    color: yellow;
 }
 
 footer {
-    display:fixed;
-    text-align:center;
-    padding:10px;
+    position: fixed;
+    text-align: center;
+    left:50dvh;
     top: 90%;
+    z-index: 999;
 }
