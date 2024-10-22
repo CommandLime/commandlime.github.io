@@ -27,12 +27,20 @@ body {
 
 }
 
-#main
+#navhead {
+    text-shadow: 1px grey;
+}
+
 {
 
     width:fit-content;
     padding-left: 30px;
     margin-left:30px;
+    max-width:50dvw;
+}
+
+#main {
+    display: none;
 }
 
 #greg {
