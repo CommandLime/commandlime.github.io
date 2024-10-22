@@ -5,25 +5,25 @@ body {
     height: 90dvh;
 }
 
-#nav
-{
+#nav {
     float: left;
-    max-width:15dvw;
-    min-width:15dvw;
+    max-width: 15dvw;
+    min-width: 15dvw;
     border-width: 0 6px 0 0px;
     border-color: grey;
     border-style: solid;
-    height:90dvh;
-    margin-right:15px;
+    height: 90dvh;
+    margin-right: 15px;
 }
+
 #navlist {
     padding: 5px;
 }
 
 #navlist li:hover {
     border: 2px;
-    border-style:dashed;
-    border-color:lime;
+    border-style: dashed;
+    border-color: lime;
 
 }
 
@@ -31,12 +31,12 @@ body {
     text-shadow: 1px grey;
 }
 
-{
+div {
 
-    width:fit-content;
+    width: fit-content;
     padding-left: 30px;
-    margin-left:30px;
-    max-width:50dvw;
+    margin-left: 30px;
+    max-width: 50dvw;
 }
 
 #main {
@@ -61,7 +61,7 @@ a:visited {
 footer {
     position: fixed;
     text-align: center;
-    left:50dvh;
+    left: 50dvh;
     top: 90%;
     z-index: 999;
 }
