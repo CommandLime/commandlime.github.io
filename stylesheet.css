@@ -3,8 +3,6 @@ body {
     background-color: black;
     color: white;
     height: 90dvh;
-    font-size-adjust:
-
 }
 
 #nav
@@ -20,6 +18,13 @@ body {
 }
 #navlist {
     padding: 5px;
+}
+
+#navlist li:hover {
+    border: 2px;
+    border-style:dashed;
+    border-color:lime;
+
 }
 
 #main
